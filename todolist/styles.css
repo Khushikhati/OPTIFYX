@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 400px; /* Set a minimum height instead of a fixed height */
+    max-height: none;  /* Allow it to expand */
+    overflow: auto;    /* Add scrolling if necessary */
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.new-task {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #fff;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+button.delete {
+    background-color: #d9534f;
+}
+
+button.delete:hover {
+    background-color: #c9302c;
+}
+#misti{
+    color: white;
+    font-size: 45px;
+}
+#image{
+       height:40px;
+       width:40px;
+}
+#task-input{
+    height:25px;
+    font-size: 20px;
+}
+#add-task{
+    height:44px;
+    font-size: 20px;
+}
+#todo{
+    height:200px;
+}
+.hidden {
+    display: none;
+}
